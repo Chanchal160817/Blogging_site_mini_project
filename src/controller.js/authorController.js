@@ -1,6 +1,6 @@
 const authorModel = require('../Model.js/Authormodel')
 const jwt = require("jsonwebtoken")
-const validator = require('validator');
+const validator = require('validator'); 
 const { fn } = require('moment/moment');
 
 function isEmail(emailAdress) {
@@ -12,7 +12,7 @@ function isEmail(emailAdress) {
         return false;
 }
 function hasWhiteSpace(s) {
-    return s.indexOf(' ') >= 0;
+    return s.indexOf(' ') >= 0; 
   }
   
 

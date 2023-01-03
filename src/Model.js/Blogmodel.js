@@ -1,6 +1,6 @@
 const mongoose=require('mongoose')
 const ObjectId=mongoose.Schema.Types.ObjectId
-const blogmodelschema=mongoose.Schema({
+const blogmodelschema= new mongoose.Schema({
   title:{
     type:String,
     required:true
